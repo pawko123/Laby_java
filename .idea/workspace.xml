@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb778ec-e826-4da1-80c3-c076aae5214a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
-      <change afterPath="$PROJECT_DIR$/src/Lab_4/lab4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_5/Autokomis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_5/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_5/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_5/data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_5/samochod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Glowna/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Glowna/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Glowna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Glowna/Main.java" afterDir="false" />
@@ -97,6 +101,8 @@
       <workItem from="1699198319549" duration="2547000" />
       <workItem from="1699425139173" duration="3287000" />
       <workItem from="1699428470395" duration="1958000" />
+      <workItem from="1699431466095" duration="3781000" />
+      <workItem from="1699435733776" duration="544000" />
     </task>
     <task id="LOCAL-00001" summary="hej">
       <option name="closed" value="true" />
@@ -202,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698339127742</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
+      <option name="closed" value="true" />
+      <created>1699431490162</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699431490162</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

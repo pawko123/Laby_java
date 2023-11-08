@@ -2,11 +2,17 @@ package Glowna;
 import Lab_2.*;
 import Lab_3.*;
 import Lab_4.*;
+import Lab_5.*;
 public class Main{
     public static void main(String[] args) {
         lab2 lista_druga=new lab2();
         lab3 lista_trzecia=new lab3();
         lab4 lista_czwarta=new lab4();
-        lab4.zad4();
+        samochod Opelek=new samochod();
+        Opelek.sprawdz_gwarancje();
+        Rectangle myRect=new Rectangle();
+        myRect.width = 40;
+        myRect.height = 50;
+        System.out.println("Obszar kwadratu: " + myRect.area());
     }
 }
