@@ -3,26 +3,38 @@ package Lab_5;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class samochod {
+public class Samochod {
     private String marka;
     private String model;
     private double pojemnoscsilnika;
     private String typnadwozia;
     private String typsilnika;
     private int rokprodukcji;
-    private data data1rejestracji;
+    private Data data1rejestracji;
     private int cena;
-    public samochod(){
+    public Samochod(){
         this.marka="Opel";
         this.model="Corsa";
         this.pojemnoscsilnika=1.6;
         this.typnadwozia="hatchback";
         this.typsilnika="benzyna";
         this.rokprodukcji=2022;
-        this.data1rejestracji=new data(9,11,2021);
+        this.data1rejestracji=new Data(16,11,2021);
         this.cena=50000;
     }
+    public Samochod(String marka, String model, double pojemnoscsilnika, String typnadwozia, String typsilnika,
+                    int rokprodukcji, int dzien,int miesiac,int rok, int cena) {
+        this.marka = marka;
+        this.model = model;
+        this.pojemnoscsilnika = pojemnoscsilnika;
+        this.typnadwozia = typnadwozia;
+        this.typsilnika = typsilnika;
+        this.rokprodukcji = rokprodukcji;
+        this.data1rejestracji = new Data(dzien,miesiac,rok);
+        this.cena = cena;
+    }
     //settery
+
     public void setmarka(String marka) {
         this.marka = marka;
     }
@@ -42,7 +54,7 @@ public class samochod {
         this.rokprodukcji = rokprodukcji;
     }
     public void setdata1rejestracji(int d,int m,int r) {
-        this.data1rejestracji = new data(d,m,r);
+        this.data1rejestracji = new Data(d,m,r);
     }
     public void setcena(int cena) {
         this.cena = cena;
@@ -66,7 +78,7 @@ public class samochod {
     public int getrokprodukcji() {
         return rokprodukcji;
     }
-    public data getdata1rejestracji() {
+    public Data getdata1rejestracji() {
         return data1rejestracji;
     }
     public int getcena() {

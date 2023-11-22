@@ -1,7 +1,7 @@
 package Lab_5;
 public class Autokomis {
-    private samochod[] samochody;
+    private Samochod[] samochody;
     public Autokomis(){
-        this.samochody=new samochod[10];
+        this.samochody=new Samochod[10];
     }
 }
