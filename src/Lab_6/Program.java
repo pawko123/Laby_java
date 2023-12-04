@@ -69,14 +69,14 @@ public class Program {
         }
         this.predkosc_prania=predkosc;
         System.out.println("Zakonczono tworzenie programu. Podsumowanie:");
-        wypisz_program(this);
+        this.wypisz_program();
     }
-    public void wypisz_program(Program oryginal){
-        System.out.println("Nazwa: "+oryginal.nazwa);
-        System.out.println("Temperatura: "+oryginal.temperatura+" C");
-        System.out.println("Czas prania wstepnego: "+oryginal.czas_prania_wstp+" min");
-        System.out.println("Czas prania zasadniczego: "+oryginal.czas_prania_zasadniczego+" min");
-        System.out.println("Dodatkowe plukanie: "+oryginal.dodatkowe_plukanie);
-        System.out.println("Predkosc bebna: "+oryginal.predkosc_prania+" obr/min");
+    public void wypisz_program(){
+        System.out.println("Nazwa: "+this.nazwa);
+        System.out.println("Temperatura: "+this.temperatura+" C");
+        System.out.println("Czas prania wstepnego: "+this.czas_prania_wstp+" min");
+        System.out.println("Czas prania zasadniczego: "+this.czas_prania_zasadniczego+" min");
+        System.out.println("Dodatkowe plukanie: "+this.dodatkowe_plukanie);
+        System.out.println("Predkosc bebna: "+this.predkosc_prania+" obr/min");
     }
 }

@@ -95,6 +95,7 @@ public class Samochod {
         SimpleDateFormat rok = new SimpleDateFormat("yyyy");
         SimpleDateFormat dzien = new SimpleDateFormat("dd");
         SimpleDateFormat miesiac = new SimpleDateFormat("MM");
+        
         int dzien_int = Integer.parseInt(dzien.format(obecna_data));
         int miesiac_int = Integer.parseInt(miesiac.format(obecna_data));
         int rok_int = Integer.parseInt(rok.format(obecna_data));

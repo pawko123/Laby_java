@@ -19,7 +19,7 @@ public class Programy_pralki {
         int nr_programu=1;
         for(Program program:this.lista_programow){
             System.out.println("Nr programu: "+nr_programu);
-            
+            program.wypisz_program();
             nr_programu++;
         }
     }

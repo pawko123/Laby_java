@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb778ec-e826-4da1-80c3-c076aae5214a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_6/Beben.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_6/Filtr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_6/Grzalka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_6/Pojemnik_na_detergenty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_6/Pralka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_6/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_6/Programy_pralki.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_7/Kalkulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Glowna/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Glowna/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/samochod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/samochod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Glowna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Glowna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_5/Autokomis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_5/Autokomis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_5/data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_5/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_5/samochod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_5/Samochod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_5/Samochod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_5/Samochod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_6/Beben.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Beben.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_6/Filtr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Filtr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_6/Grzalka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Grzalka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_6/Pojemnik_na_detergenty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Pojemnik_na_detergenty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_6/Pralka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Pralka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_6/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_6/Programy_pralki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Programy_pralki.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +107,17 @@
       <workItem from="1700030535298" duration="4029000" />
       <workItem from="1700167127351" duration="57000" />
       <workItem from="1700635329354" duration="4661000" />
-      <workItem from="1700641898679" duration="595000" />
+      <workItem from="1700641898679" duration="851000" />
+      <workItem from="1700667143886" duration="1112000" />
+      <workItem from="1700670099894" duration="53000" />
+      <workItem from="1700672688504" duration="840000" />
+      <workItem from="1700834211911" duration="654000" />
+      <workItem from="1700835018165" duration="20000" />
+      <workItem from="1700835977101" duration="141000" />
+      <workItem from="1700838310836" duration="340000" />
+      <workItem from="1701189543252" duration="1745000" />
+      <workItem from="1701202936702" duration="9000" />
+      <workItem from="1701672060106" duration="2479000" />
     </task>
     <task id="LOCAL-00001" summary="hej">
       <option name="closed" value="true" />
@@ -245,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699436337361</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
+      <option name="closed" value="true" />
+      <created>1700642583552</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700642583552</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,11 +285,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Lab_2/lab2.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="3" />
