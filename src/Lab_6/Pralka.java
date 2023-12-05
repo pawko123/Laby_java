@@ -37,6 +37,8 @@ public class Pralka {
         Program wybrany=this.lista.lista_programow.get(program-1);
         System.out.println("Grzanie wody...");
         czekaj(5);
+        System.out.println("Pompowanie wody...");
+        czekaj(2);
         this.grzalka.temperatura=wybrany.temperatura;
         this.beben.predkosc= wybrany.predkosc_prania;
         Random random=new Random();

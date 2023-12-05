@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb778ec-e826-4da1-80c3-c076aae5214a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/opencsv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_7/Handle_csv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_7/plik.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_5/Samochod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_5/Samochod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_6/Beben.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Beben.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_6/Filtr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Filtr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_6/Grzalka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Grzalka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_6/Pojemnik_na_detergenty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Pojemnik_na_detergenty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Glowna/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Glowna/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/samochod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/samochod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Glowna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Glowna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_5/Autokomis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_5/Autokomis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab_6/Pralka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Pralka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_6/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_6/Programy_pralki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_6/Programy_pralki.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +48,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/games/Desktop/Studia/Java/Laby&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/games/Desktop/Studia/Java/Lab_2/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/games/Desktop/Studia/Java/Laby",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/games/Desktop/Studia/Java/Lab_2/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -117,7 +122,8 @@
       <workItem from="1700838310836" duration="340000" />
       <workItem from="1701189543252" duration="1745000" />
       <workItem from="1701202936702" duration="9000" />
-      <workItem from="1701672060106" duration="2479000" />
+      <workItem from="1701672060106" duration="2751000" />
+      <workItem from="1701678405664" duration="5953000" />
     </task>
     <task id="LOCAL-00001" summary="hej">
       <option name="closed" value="true" />
@@ -255,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700642583552</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
+      <option name="closed" value="true" />
+      <created>1701676323091</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1701676323091</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

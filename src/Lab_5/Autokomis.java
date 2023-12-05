@@ -1,7 +1,10 @@
 package Lab_5;
+
+import java.util.ArrayList;
+
 public class Autokomis {
-    private Samochod[] samochody;
+    public ArrayList<Samochod> samochody;
     public Autokomis(){
-        this.samochody=new Samochod[10];
+        samochody=new ArrayList<Samochod>();
     }
 }
