@@ -5,13 +5,13 @@ import com.opencsv.exceptions.CsvException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.BufferedWriter;
 import java.util.ArrayList;
 import java.util.List;
+
 public class Handle_csv {
     public void odczyt(String plik){
         try (CSVReader csvReader = new CSVReader(new FileReader(plik))) {
-            List<String[]> rekordy = csvReader.readAll();
+            List<String[]> rekordy = (List<String[]>) csvReader.readAll();
 
             for (String[] rekord : rekordy) {
                 // Dla każdego rekordu możesz wykonywać operacje
@@ -25,7 +25,7 @@ public class Handle_csv {
         }
     }
     public void zapis(String sciezka, ArrayList<Samochod> tabela){
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(sciezka))) {
+        try (FileWriter writer = new FileWriter(sciezka)) {
             for (Samochod auto : tabela) {
                 writer.write(auto.getMarka()+',');
                 writer.write(auto.getmodel()+',');
@@ -37,8 +37,7 @@ public class Handle_csv {
                 writer.write(String.valueOf(auto.getdata1rejestracji().getmiesiac())+',');
                 writer.write(String.valueOf(auto.getdata1rejestracji().getrok())+',');
                 writer.write(String.valueOf(auto.getcena()));
-                writer.newLine();
-                
+                writer.write("\n");
             }
         } catch (IOException e) {
             e.printStackTrace();
