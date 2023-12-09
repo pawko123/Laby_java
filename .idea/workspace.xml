@@ -5,21 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb778ec-e826-4da1-80c3-c076aae5214a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
-      <change afterPath="$PROJECT_DIR$/src/Lab_7/Reader_Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_8/Autokomis_8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_8/Lista_studentow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_8/Regex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_8/Samochod_8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_8/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_9/StudentInstytut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_9/StudentUZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_9/Studentx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_9/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_2/Run2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_3/Run3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_4/Run4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_5/Run5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_7/Run7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_8/Interrejs_lambdy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_8/Run8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Glowna/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Glowna/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_2/lab2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_2/lab2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_3/lab3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_3/lab3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_4/lab4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_4/lab4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/Autokomis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/Autokomis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/samochod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_5/samochod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Beben.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Beben.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Filtr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Filtr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Grzalka.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Grzalka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Pojemnik_na_detergenty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Pojemnik_na_detergenty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Pralka.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Pralka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Programy_pralki.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_6/Programy_pralki.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_7/Handle_csv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_7/Handle_csv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_7/Kalkulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_7/Kalkulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_7/Reader_Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_7/Reader_Writer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_8/Autokomis_8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_8/Autokomis_8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_8/Lista_studentow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_8/Lista_studentow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_8/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_8/Regex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_8/Samochod_8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_8/Samochod_8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_8/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_8/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Glowna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Glowna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_7/Handle_csv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_7/Handle_csv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_7/Kalkulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_7/Kalkulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +48,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,32 +73,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/games/Desktop/Studia/Java/Laby&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/games/Desktop/Studia/Java/Lab_2/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/games/Desktop/Studia/Java/Laby",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/games/Desktop/Studia/Java/Lab_2/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
