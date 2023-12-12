@@ -1,4 +1,5 @@
 package Glowna;
+import Lab_10.*;
 import Lab_2.*;
 import Lab_3.*;
 import Lab_4.*;
@@ -17,5 +18,6 @@ public class Main{
         //new Run7();
         //new Run8();
         //new Test();
+        //new Run10();
     }
 }
