@@ -6,21 +6,29 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Run10{
-    public Run10() throws InterruptedException {
+    public Run10(){
         for(int i=1;i<=15;i++) {
-            Watek watek = new Watek();
-            watek.start();
-            watek.join();
+            try {
+                Watek watek = new Watek();
+                watek.start();
+                watek.join();
+            }
+            catch (InterruptedException e){
+            }
         }
         Katalog katalog=new Katalog();
         for(Gra gra: katalog.katalog_gier){
-            //dla Thread
-            //gra.start();
-            //gra.join();
-            //dla Runnable
-            //Thread thread = new Thread(gra);
-            //thread.start();
-            //thread.join();
+            //try {
+                //dla Thread
+                //gra.start();
+                //gra.join();
+                //dla Runnable
+                //Thread thread = new Thread(gra);
+                //thread.start();
+                //thread.join();
+            //}
+            //catch (InterruptedException e){
+            //}
         }
             //odczyt
             ArrayList<String> zawartoscpliku=new ArrayList<>();
@@ -33,9 +41,13 @@ public class Run10{
                 System.err.println("Błąd odczytu pliku");
             }
             for(int i=0;i<10;i++){
-                Thread threadx=new Thread(new Odczyt(i*10,((i+1)*10)-1,zawartoscpliku));
-                threadx.start();
-                threadx.join();
+                try {
+                    Thread threadx=new Thread(new Odczyt(i*10,((i+1)*10)-1,zawartoscpliku));
+                    threadx.start();
+                    threadx.join();
+                }
+                catch (InterruptedException e){
+                }
             }
     }
 }

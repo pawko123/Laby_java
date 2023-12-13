@@ -1,5 +1,6 @@
 package Glowna;
 import Lab_10.*;
+import Lab_11.Run11;
 import Lab_2.*;
 import Lab_3.*;
 import Lab_4.*;
@@ -9,7 +10,7 @@ import Lab_7.*;
 import Lab_8.*;
 import Lab_9.*;
 public class Main{
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args){
         //new Run2();
         //new Run3();
         //new Run4();
@@ -18,6 +19,7 @@ public class Main{
         //new Run7();
         //new Run8();
         //new Test();
-        new Run10();
+        //new Run10();
+        new Run11();
     }
 }
