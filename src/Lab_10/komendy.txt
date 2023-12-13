@@ -1,0 +1,104 @@
+1.net user
+net localgroup
+2.
+//net user Student1 /add
+//net localgroup Użytkownicy zaawansowani Student1 /add
+i tak dla kazdego uzytkownika
+3.
+net localgroup Studenci /delete
+net user Student1 /delete
+4.
+//compmgmt.msc
+5.
+//secpol.msc
+7. 
+net user Jan /add
+mkdir c:\foldery_macierzyste\jan
+//icacls c:\foldery_macierzyste\jan /grant Jan:(oi)(ci)f /t
+8.
+net user Jan /logonpasswordchg:yes
+net user Jan /passwordchg:no
+net user Jan /expires:never
+9.
+net user Jan 
+ostatnie logowanie powinno sie pojawic
+11.
+net user test /add
+net user test /times:pn-pt,8:00-15:00
+12.
+//net accounts /minpwlen:10
+13.
+//net accounts /maxpwlen:5
+15.
+a
+net user Student1 /add
+net user Student2 /add
+net user Student3 /add
+b
+net localgroup Grupa1 /add
+net localgroup Grupa2 /add
+c
+net localgroup Grupa1 Student1 /add
+net localgroup Grupa1 Student2 /add
+d
+net localgroup Grupa2 Student2 /add
+net localgroup Grupa2 Student3 /add
+e
+mkdir c:\dane_grup
+g
+//icacls c:\dane_grup
+h
+icacls c:\dane_grup /grant Grupa1:(oi)(ci)m
+i
+icacls c:\dane_grup /grant Grupa2:(oi)(ci)rx /deny Grupa2:(oi)(ci)w
+j
+icacls c:\dane_grup
+17.
+mkdir c:\dane_admina
+icacls C:\dane_admina /grant administrator:F
+20.
+a
+//list disk
+//list volume
+b
+//select volume 0
+//list partition
+22.
+sprawdz czy pisze supports disk quotas
+23.
+fsutil quota enforce c:
+fsutil quota modify c: 62914560 104857600 Student1
+fsutil quota modify c: 83886080 125829120 Student1
+24.
+wmic useraccount where name='Student1' get sid
+25.
+a
+query user
+b
+query user admin
+c
+taskmgr
+26.
+a
+query process Student1
+b
+query process console
+c
+query process notepad.exe
+d
+numer procesu/identyfikator procesu
+27.
+a
+tasklist /fi "username eq student1"
+b
+tasklist /fi "sessionname eq console"
+c
+tasklist /fi "imagename eq notepad.exe"
+29.
+taskkill /f /fi "imagename eq notepad.exe" /fi "username eq student1"
+35.
+gpresult /user Student1 /v
+36.
+gpresult /r /scope computer /v
+37.
+gpresult /scope computer /h c:\student1.html
