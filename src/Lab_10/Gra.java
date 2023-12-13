@@ -3,7 +3,7 @@ package Lab_10;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Gra extends Thread{
+public class Gra extends Thread implements Runnable{
     String nazwa;
     String gatunek;
     String producent;
@@ -21,6 +21,10 @@ public class Gra extends Thread{
         return "Nazwa: "+nazwa+" Gatunek: "+gatunek+" Producent: "+producent+" Wydawca: "+wydawca+" Rok wydania: "+rok_wydania;
     }
     public void run(){
-
+        try (FileWriter writer = new FileWriter("C:\\Users\\games\\IdeaProjects\\Laby_java\\src\\Lab_10\\zapis.log",true)) {
+            writer.write(this.toString()+"\n");
+        } catch (IOException e) {
+            System.err.println("Błąd zapisu pliku");
+        }
     }
 }
