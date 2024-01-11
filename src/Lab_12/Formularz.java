@@ -70,7 +70,7 @@ public class Formularz extends JFrame implements ActionListener {
             }
         }
         if(e.getSource()==przeslijplik){
-
+            System.out.println("xpp");
         }
         if(e.getSource()==wyczysc){
             imie.setText("");
