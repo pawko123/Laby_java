@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb778ec-e826-4da1-80c3-c076aae5214a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
-      <change afterPath="$PROJECT_DIR$/src/Lab_11/Mojwyjatek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_11/Run11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_11/Wyjatek_dzielenia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cedarsoft_commons_swing_jgoodies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jgoodies_common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jgoodies_forms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_11/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_11/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_12/Formularz.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_12/Formularz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_12/plik_osoby.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_12_2023_22_57_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_12_2023_22_57__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_13_2023_6_38_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_13_2023_6_38_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Glowna/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Glowna/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_10/Run10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_10/Run10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_11/Run11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_11/Run11.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Glowna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Glowna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_10/Run10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_10/Run10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_11/Run11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_11/Run11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +46,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -50,7 +64,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Formularz.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Server.executor": "Run",
+    "Application.formularz.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -58,11 +75,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "309",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/games/Desktop/Studia/Java/Laby",
+    "last_opened_file_path": "C:/Users/games/AppData",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,7 +90,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -138,6 +156,12 @@
       <workItem from="1701850983997" duration="38000" />
       <workItem from="1701851114481" duration="372000" />
       <workItem from="1702452204243" duration="2781000" />
+      <workItem from="1702492614228" duration="58000" />
+      <workItem from="1703050556167" duration="4978000" />
+      <workItem from="1704864854870" duration="4607000" />
+      <workItem from="1704869523982" duration="455000" />
+      <workItem from="1704870407165" duration="321000" />
+      <workItem from="1704870856309" duration="4401000" />
     </task>
     <task id="LOCAL-00001" summary="hej">
       <option name="closed" value="true" />
@@ -307,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702450529090</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
+      <option name="closed" value="true" />
+      <created>1702492723847</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1702492723847</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,11 +373,25 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
+    <expand>
+      <path>
+        <item name="Laby" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file://C:/Users/games/IdeaProjects/Laby_java}" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="Laby" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file://C:/Users/games/IdeaProjects/Laby_java}" type="462c0819:PsiDirectoryNode" />
+        <item name="dir{file://C:/Users/games/IdeaProjects/Laby_java/src}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
     <select />
   </component>
 </project>

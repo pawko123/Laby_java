@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Lab_12.Formularz">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:98px:noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="9" y="12" width="511" height="474"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e54b" class="javax.swing.JLabel" binding="imie_l">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="1" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Imie:"/>
+        </properties>
+      </component>
+      <component id="6aaa7" class="javax.swing.JLabel" binding="naz_l">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Nazwisko:"/>
+        </properties>
+      </component>
+      <component id="b8f14" class="javax.swing.JTextField" binding="nazwisko">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f97de" class="javax.swing.JTextField" binding="imie">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="1" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fc27b" class="javax.swing.JLabel" binding="zatrudnienie_l">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Zatrudnienie:"/>
+        </properties>
+      </component>
+      <component id="557fe" class="javax.swing.JTextField" binding="zatrudnienie">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fbb0e" class="javax.swing.JLabel" binding="stanowisko_l">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Stanowisko:"/>
+        </properties>
+      </component>
+      <component id="8bbcd" class="javax.swing.JTextField" binding="stanowisko">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="21533" class="javax.swing.JLabel" binding="ulica_l">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Ulica:"/>
+        </properties>
+      </component>
+      <component id="f652e" class="javax.swing.JLabel" binding="miasto_l">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Miasto:"/>
+        </properties>
+      </component>
+      <component id="11d58" class="javax.swing.JLabel" binding="wojewodztwo_l">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Województwo:"/>
+        </properties>
+      </component>
+      <component id="ec93c" class="javax.swing.JLabel" binding="kraj_l">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Kraj:"/>
+        </properties>
+      </component>
+      <component id="d5356" class="javax.swing.JLabel" binding="telefon_l">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Nr.telefonu:"/>
+        </properties>
+      </component>
+      <component id="da535" class="javax.swing.JLabel" binding="email_l">
+        <constraints>
+          <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Email:"/>
+        </properties>
+      </component>
+      <component id="44324" class="javax.swing.JLabel" binding="www_l">
+        <constraints>
+          <grid row="22" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Strona WWW:"/>
+        </properties>
+      </component>
+      <component id="227ea" class="javax.swing.JTextField" binding="ulica">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="93703" class="javax.swing.JTextField" binding="miasto">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="de710" class="javax.swing.JTextField" binding="kod">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a1985" class="javax.swing.JTextField" binding="wojewodztwo">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="283b" class="javax.swing.JTextField" binding="kraj">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d28d6" class="javax.swing.JTextField" binding="telefon">
+        <constraints>
+          <grid row="18" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d2841" class="javax.swing.JTextField" binding="email">
+        <constraints>
+          <grid row="20" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="eca4c" class="javax.swing.JTextField" binding="www">
+        <constraints>
+          <grid row="22" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="1" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2e1fd" class="javax.swing.JButton" binding="wyslij">
+        <constraints>
+          <grid row="24" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value="Wyślij"/>
+        </properties>
+      </component>
+      <component id="74392" class="javax.swing.JButton" binding="wyczysc">
+        <constraints>
+          <grid row="24" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Wyszyść"/>
+        </properties>
+      </component>
+      <component id="827b1" class="javax.swing.JButton" binding="przeslijplik">
+        <constraints>
+          <grid row="24" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value="Prześlij plik"/>
+        </properties>
+      </component>
+      <component id="8257c" class="javax.swing.JLabel" binding="kod_l">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Kod pocztowy:"/>
+        </properties>
+      </component>
+      <component id="dbd" class="javax.swing.JLabel" binding="error">
+        <constraints>
+          <grid row="24" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1769439"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
