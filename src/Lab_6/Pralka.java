@@ -19,9 +19,6 @@ public class Pralka {
         waga=0;
         petla_dzialania(this);
     }
-    public void podaj_liste_programow(Pralka pralka){
-        this.lista.wypisz_programy();
-    }
     public void czekaj(int naile){
         try {
             Thread.sleep(naile * 1000);

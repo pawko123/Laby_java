@@ -290,8 +290,8 @@
       </component>
       <component id="dbd" class="javax.swing.JLabel" binding="error">
         <constraints>
-          <grid row="24" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-          <forms defaultalign-horz="false"/>
+          <grid row="24" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="1" bottom="0" right="0" defaultalign-horz="false"/>
         </constraints>
         <properties>
           <foreground color="-1769439"/>

@@ -3,7 +3,7 @@ package Lab_7;
 import java.util.Arrays;
 
 public class Kalkulator {
-    public int[] liczby;
+    int[] liczby;
     //silnia
     public Kalkulator(int liczba1) {
         this.liczby = new int[]{liczba1};

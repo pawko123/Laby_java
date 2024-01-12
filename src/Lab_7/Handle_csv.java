@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Handle_csv {
-    public void odczyt(String plik){
+    void odczyt(String plik){
         try (CSVReader csvReader = new CSVReader(new FileReader(plik))) {
             List<String[]> rekordy = (List<String[]>) csvReader.readAll();
 

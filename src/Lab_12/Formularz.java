@@ -3,8 +3,10 @@ package Lab_12;
 import Lab_7.Reader_Writer;
 
 import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 
 public class Formularz extends JFrame implements ActionListener {
     private JPanel panel1;
@@ -58,19 +60,28 @@ public class Formularz extends JFrame implements ActionListener {
             if(imie.getText() .isEmpty() || nazwisko.getText() .isEmpty() || zatrudnienie.getText() .isEmpty() || stanowisko.getText()
                     .isEmpty() || ulica.getText() .isEmpty() || miasto.getText() .isEmpty() || kod.getText() .isEmpty() || wojewodztwo.getText() .isEmpty() || kraj.getText()
                     .isEmpty() || telefon.getText() .isEmpty() || email.getText() .isEmpty() || www.getText().isEmpty()) {
-                error.setText("Niepoprawne wartości");
+                error.setText("Złe wartości");
             }
             else {
                 String zapis_do_csv = imie.getText() + ',' + nazwisko.getText() + ',' + zatrudnienie.getText() + ',' + stanowisko.getText()
                         + ',' + ulica.getText() + ',' + miasto.getText() + ',' + kod.getText() + ',' + wojewodztwo.getText() + ',' + kraj.getText()
                         + ',' + telefon.getText() + ',' + email.getText() + ',' + www.getText();
+                System.out.println(zapis_do_csv);
                 Reader_Writer wysylanie = new Reader_Writer();
-                wysylanie.zapis("C:\\Users\\games\\Desktop\\Studia\\Java\\Laby\\src\\Lab_12\\plik_osoby.csv", zapis_do_csv);
+                wysylanie.zapis("C:\\Users\\Paweł\\IdeaProjects\\Laby_java\\src\\Lab_12\\plik_osoby.csv", zapis_do_csv);
                 error.setText("");
             }
         }
         if(e.getSource()==przeslijplik){
-            System.out.println("xpp");
+            JFileChooser wyborpliku=new JFileChooser();
+            wyborpliku.setFileSelectionMode(JFileChooser.FILES_ONLY);
+            wyborpliku.addChoosableFileFilter(new FileNameExtensionFilter("Images(jpg,png,gif,bmp)", "jpg", "png", "gif", "bmp"));
+            wyborpliku.setAcceptAllFileFilterUsed(false);
+            int response=wyborpliku.showOpenDialog(null);
+            if(response==JFileChooser.APPROVE_OPTION){
+                File plik=new File(wyborpliku.getSelectedFile().getAbsolutePath());
+                System.out.println(plik);
+            }
         }
         if(e.getSource()==wyczysc){
             imie.setText("");

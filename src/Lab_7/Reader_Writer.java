@@ -1,8 +1,6 @@
 package Lab_7;
 
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class Reader_Writer {
     public void odczyt(String plik){
@@ -20,8 +18,8 @@ public class Reader_Writer {
     }
     public void zapis(String sciezka, String text){
         //zeby dopisywac do pliku  FileWriter write = new FileWriter(sciezka,true)
-        try (FileWriter writer = new FileWriter(sciezka)) {
-            writer.write(text);
+        try (PrintWriter writer = new PrintWriter(new FileWriter(sciezka,true))) {
+            writer.print(text);
             System.out.println("Zapisano do pliku.");
         } catch (IOException e) {
             System.err.println("Błąd zapisu pliku");
