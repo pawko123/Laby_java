@@ -11,7 +11,7 @@ public class Regex {
         System.out.println(matcher.replaceAll(""));
     }
     static void sprawdz_poprawnosc(String napis){
-        String regex="[0-9]{3}-[0-9]{3}-[0-9]{3}";
+        String regex="^[0-9]{3}-[0-9]{3}-[0-9]{3}$";
         Pattern wzor=Pattern.compile(regex);
         Matcher matcher= wzor.matcher(napis);
         if (matcher.find()){

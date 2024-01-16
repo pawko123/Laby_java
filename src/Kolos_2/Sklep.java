@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class Sklep {
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
-        Ciastka ciastko=new Ciastka();
-        ciastko.setproducent(scanner.next());
-        ciastko.setnazwa(scanner.next());
-        ciastko.setcena(scanner.nextDouble());
-        ciastko.settyp(scanner.next());
-        ciastko.setkod(scanner.nextInt());
+        Slodycze slodycz=new Slodycze();
+        slodycz.setproducent(scanner.next());
+        slodycz.setnazwa(scanner.next());
+        slodycz.setcena(scanner.nextDouble());
+        slodycz.settyp(scanner.next());
     }
 }
