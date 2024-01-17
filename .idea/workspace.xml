@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb778ec-e826-4da1-80c3-c076aae5214a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2024_20_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2024_20_35__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Kolos_2/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Kolos_2/Regex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Kolos_2/Sklep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Kolos_2/Sklep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kolos_2/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kolos_2/Regex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kolos_2/Sklep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kolos_2/Sklep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Kolos_2/Watki.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Kolos_2/Watki.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_12/Formularz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_12/Formularz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_12/Formularz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_12/Formularz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_12/plik_osoby.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_12/plik_osoby.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

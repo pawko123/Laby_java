@@ -65,10 +65,10 @@ public class Formularz extends JFrame implements ActionListener {
             else {
                 String zapis_do_csv = imie.getText() + ',' + nazwisko.getText() + ',' + zatrudnienie.getText() + ',' + stanowisko.getText()
                         + ',' + ulica.getText() + ',' + miasto.getText() + ',' + kod.getText() + ',' + wojewodztwo.getText() + ',' + kraj.getText()
-                        + ',' + telefon.getText() + ',' + email.getText() + ',' + www.getText();
+                        + ',' + telefon.getText() + ',' + email.getText() + ',' + www.getText()+'\n';
                 System.out.println(zapis_do_csv);
                 Reader_Writer wysylanie = new Reader_Writer();
-                wysylanie.zapis("C:\\Users\\Paweł\\IdeaProjects\\Laby_java\\src\\Lab_12\\plik_osoby.csv", zapis_do_csv);
+                wysylanie.zapis("C:\\Users\\games\\IdeaProjects\\Laby_java\\src\\Lab_12\\plik_osoby.csv", zapis_do_csv);
                 error.setText("");
             }
         }
