@@ -14,7 +14,7 @@ public class Client{
                 Thread.sleep(120000);
             }
             catch (InterruptedException e){
-
+                e.printStackTrace();
             }
             out.println("Koncze prace");
             client.close();

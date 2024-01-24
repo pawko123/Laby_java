@@ -4,7 +4,7 @@ import Lab_5.Autokomis;
 import Lab_5.Samochod;
 
 public class Run7 {
-    public Run7(){
+    public static void main(String[] args){
         //tworzenie komis
         Samochod Opelek=new Samochod();
         Autokomis komis=new Autokomis();

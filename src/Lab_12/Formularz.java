@@ -1,7 +1,6 @@
 package Lab_12;
 
 import Lab_7.Reader_Writer;
-
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.event.ActionEvent;

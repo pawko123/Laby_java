@@ -1,7 +1,7 @@
 package Lab_2;
 
 public class Run2 {
-    public Run2(){
+    public static void main(String[] args){
         lab2.zad1();
         lab2.zad2();
         lab2.zad3();

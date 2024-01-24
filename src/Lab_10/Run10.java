@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Run10{
-    public Run10(){
+    public static void main(String[] args){
         for(int i=1;i<=15;i++) {
             try {
                 Watek watek = new Watek();

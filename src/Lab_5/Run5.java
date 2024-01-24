@@ -1,7 +1,7 @@
 package Lab_5;
 
 public class Run5 {
-    public Run5(){
+    public static void main(String[] args){
         //komis
         Samochod Opelek=new Samochod();
         Autokomis komis=new Autokomis();

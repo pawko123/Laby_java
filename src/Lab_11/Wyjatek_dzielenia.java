@@ -6,7 +6,7 @@ public class Wyjatek_dzielenia {
             System.out.println(l/m);
         }
         catch (ArithmeticException e){
-            System.out.println("Nie dziel przez 0");
+            e.printStackTrace();
         }
     }
 }

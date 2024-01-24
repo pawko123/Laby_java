@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class Run8 {
-    public Run8(){
+    public static void main(String[] args){
         Samochod Opelek=new Samochod();
         Autokomis komis=new Autokomis();
         komis.samochody.add(Opelek);

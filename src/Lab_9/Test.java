@@ -1,7 +1,7 @@
 package Lab_9;
 
 public class Test {
-    public Test(){
+    public static void main(String[] args){
         StudentInstytut student=new StudentInstytut();
         student.setImie("Pawel");
         student.setNazwisko("Laskarzewski");

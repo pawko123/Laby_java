@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb778ec-e826-4da1-80c3-c076aae5214a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2024_20_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2024_20_35__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_6/Run6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2024_20_35_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2024_20_35__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Kolos_2/Watki.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Kolos_2/Watki.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_2/Lab_12/Formularz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_2/Lab_12/Formularz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Glowna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Glowna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_10/Run10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_10/Run10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_11/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_11/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_11/Run11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_11/Run11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_11/Wyjatek_dzielenia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_11/Wyjatek_dzielenia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab_12/Formularz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_12/Formularz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_12/plik_osoby.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_12/plik_osoby.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2/Run2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2/Run2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_3/Run3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_3/Run3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_4/Run4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_4/Run4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_5/Run5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_5/Run5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_7/Run7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_7/Run7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_8/Run8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_8/Run8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_9/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_9/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +160,7 @@
       <workItem from="1705081053256" duration="63000" />
       <workItem from="1705428813479" duration="6847000" />
       <workItem from="1705439712042" duration="652000" />
+      <workItem from="1706074561620" duration="1741000" />
     </task>
     <task id="LOCAL-00001" summary="hej">
       <option name="closed" value="true" />
@@ -326,7 +338,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705074995631</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
+      <option name="closed" value="true" />
+      <created>1705473833084</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1705473833084</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Glowna/Main.java&#10;#&#9;src/Lab_3/lab3.java">
+      <option name="closed" value="true" />
+      <created>1705473880350</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1705473880350</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
